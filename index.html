@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <!-- SEO = Básico -->
-    <title></title>
+    <title>Mi web</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -33,19 +33,26 @@
     <header>
       <!-- nav (el navegador de toda la web) -->
       <nav>
-        <a href="" class="link1">link1</a>
-        <a href="" class="link2">link2</a>
-        <a href="" class="link3">link3</a>
-        <a href="" class="link4">link4</a>
+        <a href="proyectos.html" class="proyectos">Proyectos</a>
+        <a href="formulario.html" class="formulario">Formulario</a>
       </nav>
     </header>
     <!-- Main (centro de la página, zona central) -->
     <main>
-      <!-- section y article (posibilidades dentro de main) -->
+      <picture>
+        <source srcset="
+        img/desktop/index/nasa 1.jpg 1x,
+        img/desktop/index/nasa 1@2x.jpg 2x,
+        "
+        media="(min-width:1200px)"
+        >
+        <!-- imagen de respaldo -->
+        <img src="img/desktop/index/nasa 1.jpg" alt="espacio" />
+      </picture>
     </main>
     <!-- Footer (final de la página, zona inferior) -->
     <footer>
-      <h6>&copy;Copyright</h6>
+      <h6>&copy;Javier Elías de Quiros</h6>
     </footer>
     </div>
     <!-- *** Google Analytics *** -->

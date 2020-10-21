@@ -2,3 +2,30 @@
 /* *** Estilos SOLO para index.html *** */
 /* *********************************** */
 
+#container{
+    height: 100vh;
+    display:grid;
+    grid-template-rows:100px 1fr ;
+    
+}
+
+header{
+    grid-row: 1/span-1;
+    background-color:red;
+
+}
+
+nav{
+    width:50%;
+    display:flex;
+    justify-content: space-between;
+    background-color: aqua;
+}
+main{
+    display: grid;
+    grid-row: 100px 1fr 100px;
+}
+
+a{
+    text-decoration: none;
+}
